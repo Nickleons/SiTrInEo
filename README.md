@@ -21,6 +21,20 @@ yum -y install libXmu.x86_64 libXmu-devel.x86_64
 yum -y install xerces-c
 ```
 
+The commands are based on Ubuntu 20 LTS.
+```
+sudo apt update
+sudo apt upgrade
+sudo apt install g++
+sudo apt install libx11-dev
+sudo apt install libxpm-dev
+sudo apt install libxft-dev
+sudo apt install libxext-dev
+sudo apt install libxmu-dev
+sudo apt install libglu1-mesa-dev
+sudo apt install qt5-default
+```
+
 ### Install CMake and set ccmake configuration
 ```
 wget https://cmake.org/files/v3.9/cmake-3.9.5-Linux-x86_64.tar.gz
