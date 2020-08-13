@@ -58,7 +58,7 @@ Press 'c' until you can press 'g' to generate
 
 ```
 make -j 4 && make install
-source /path/to/Software/Geant4/install/share/Geant4-10.5.0/geant4make/geant4make.sh
+source /path/to/Software/Geant4/install/share/Geant4-10.6.2/geant4make/geant4make.sh
 ```
 
 ### Install ROOT using binary version
