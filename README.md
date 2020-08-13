@@ -31,23 +31,23 @@ alias ccmake=/path/to/cmake-3.9.5-Linux-x86_64/bin/ccmake
 
 ## How to install Geant4 
 
-Download the latest Geant4 version, [Geant4 download link](https://geant4.web.cern.ch/support/download)
+Download the latest Geant4 version(v10.6.2),
 
 ```
 export QT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt4
 ```
 
-Let's install Geant4 in user area
+Let's download and install Geant4 in user area
 ```
 cd ~
 mkdir Software && cd Software
 mkdir Geant4 && cd Geant4
 mkdir build src install
-mv download.Geant4.source.tar.gz src // download.Geant4.source is just arbitrary name
 cd src
+https://github.com/Geant4/geant4/archive/v10.6.2.tar.gz
 tar -zxvf download.Geant4.source.tar.gz
 cd ../build
-ccmake ../src/geant4.10.05
+ccmake ../src/geant4.10.6.2
 ```
 
 Follow the configuration as below example:
